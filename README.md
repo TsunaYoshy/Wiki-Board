@@ -23,6 +23,4 @@ Este é um projeto simples de interface web para pesquisa de jogos de tabuleiro,
 
 ## Como Usar
 
-1. Faça o clone do repositório:
-   ```bash
    git clone [https://github.com/seu-usuario/wiki-board.git](https://github.com/TsunaYoshy)
