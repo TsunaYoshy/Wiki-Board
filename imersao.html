@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Wiki Board</title>
+</head>
+
+<body>
+    <header>
+        <h1>Wiki Jogos de Tabuleiro</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o tema ou o nome de um jogo" id="campo-pesquisa">
+            <button onclick="busca()">Buscar</button>
+        </section>
+        
+        <section class="resultados-pesquisa"
+        id = "resultados-pesquisa">
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Jogos de tabuleiro. All rights reserved.</p>
+        <p>Desenvolvido na Imersão Alura - Gemini/html</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
